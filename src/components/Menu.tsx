@@ -31,26 +31,14 @@ const menuItems = [
         visible: ["admin", "teacher"],
       },
       {
-        icon: "/subject.png",
-        label: "Subjects",
-        href: "/list/subjects",
-        visible: ["admin"],
-      },
-      {
         icon: "/class.png",
-        label: "Classes",
+        label: "Department",
         href: "/list/classes",
         visible: ["admin", "teacher"],
       },
       {
-        icon: "/lesson.png",
-        label: "Lessons",
-        href: "/list/lessons",
-        visible: ["admin", "teacher"],
-      },
-      {
         icon: "/exam.png",
-        label: "Exams",
+        label: "Assessment",
         href: "/list/exams",
         visible: ["admin", "teacher", "student", "parent"],
       },
